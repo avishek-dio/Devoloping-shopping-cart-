@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawsome link  -->
+    <script src="https://kit.fontawesome.com/86f0c24b91.js" crossorigin="anonymous"></script>
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- skelelton cdns link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+        integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- this is title  -->
+    <title>Shopping Cart Devolopment</title>
+</head>
+
+<body>
+    <!-- start of body section     -->
+    <!-- navbar section  -->
+    <div class="navbar">
+        <h1>Devoloping Shoping Cart</h1>
+
+        <div class="cart_logo" id="cart_logo"><i class="fa-sharp fa-solid fa-cart-shopping"></i></div>
+    </div>
+    <!-- end of navbar section  -->
+    <!-- shop cart section  -->
+    <div class="cart-container">
+        <div class="product" id="product">
+
+            <img src="/Images/pexels-alexandr-borecky-393047.jpg" alt="" id="images" class="images">
+
+            <div class="product_body">
+                <h3 class="item_name">Smart Watch</h3>
+                <p class="item_about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, illum.</p>
+                <span class="price "><b>Price:</b> <s>1000$</s> <b>800$</b></span>
+                <br>
+                <i class="fa-solid fa-star star" id="cartStar"></i> <i class="fa-solid fa-star star" id="cartStar"></i>
+                <i class="fa-solid fa-star star" id="cartStar"></i> <i class="fa-solid fa-star star" id="cartStar"></i>
+                <i class="fa-solid fa-star star" id="blankStar"></i>
+                <br>
+                <button class=" btn cart-btn-shopping" id="cart-btn-shopping">Add to Card</button>
+            </div>
+        </div>
+        <div class="product" id="product">
+
+            <img src="/Images/pexels-juan-pablo-serrano-arenas-951291.jpg" alt="" id="images" class="images">
+
+            <div class="product_body">
+                <h3 class="item_name">I Phone</h3>
+                <p class="item_about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, illum.</p>
+                <span class="price "><b>Price:</b> <s>11000$</s> <b>9000$</b></span>
+                <br>
+                <i class="fa-solid fa-star star" id="cartStar"></i> <i class="fa-solid fa-star star" id="cartStar"></i>
+                <i class="fa-solid fa-star star" id="cartStar"></i> <i class="fa-solid fa-star star" id="cartStar"></i>
+                <i class="fa-solid fa-star star" id="blankStar"></i>
+                <br>
+                <button class=" btn cart-btn-shopping" id="cart-btn-shopping">Add to Card</button>
+            </div>
+        </div>
+        <div class="product" id="product">
+
+            <img src="/Images/pexels-pixabay-45889.jpg" alt="" id="images" class="images">
+
+            <div class="product_body">
+                <h3 class="item_name">Camara</h3>
+                <p class="item_about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, illum.</p>
+                <span class="price "><b>Price:</b> <s>15000$</s> <b>12000$</b></span>
+                <br>
+                <i class="fa-solid fa-star star" id="cartStar"></i> <i class="fa-solid fa-star star" id="cartStar"></i>
+                <i class="fa-solid fa-star star" id="cartStar"></i> <i class="fa-solid fa-star star" id="cartStar"></i>
+                <i class="fa-solid fa-star star" id="blankStar"></i>
+                <br>
+                <button class=" btn cart-btn-shopping" id="cart-btn-shopping">Add to Card</button>
+            </div>
+        </div>
+        <div class="product" id="product">
+
+            <img src="/Images/pexels-sound-on-3394666.jpg" alt="" id="images" class="images">
+
+            <div class="product_body">
+                <h3 class="item_name">Head Phone</h3>
+                <p class="item_about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, illum.</p>
+                <span class="price "><b>Price:</b> <s>300$</s> <b>200$</b></span>
+                <br>
+                <i class="fa-solid fa-star star" id="cartStar"></i> <i class="fa-solid fa-star star" id="cartStar"></i>
+                <i class="fa-solid fa-star star" id="cartStar"></i> <i class="fa-solid fa-star star" id="cartStar"></i>
+                <i class="fa-solid fa-star star" id="blankStar"></i>
+                <br>
+                <button class=" btn cart-btn-shopping" id="cart-btn-shopping">Add to Card</button>
+            </div>
+        </div>
+    </div>
+
+    <table class="u-full-width">
+        <thead class="thead">
+            <tr>
+                <th><h4>Product</h4></th>
+                <th><h4>Product Name</h4></th>
+                <th><h4>Price</h4></th>
+               
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            <!-- <tr>
+                <td> <img src="/Images/pexels-alexandr-borecky-393047.jpg" alt="" id="images" class="img"> </td>
+                <td>
+                    <h5 class="item_name">Item Name </h3>
+                </td>
+                <td>
+                    <h5 class="item_price"> 100$#</h3>
+                </td>
+                <td>
+                    <h5 class="removeBtn">x</h3>
+                </td>
+            </tr> -->
+        </tbody>
+
+        
+    </table>
+    <!-- end of Shoping cart sectioon -->
+
+
+    <script src="/js file/script.js"></script>
+    <!-- end of body section  -->
+</body>
+
+</html>
